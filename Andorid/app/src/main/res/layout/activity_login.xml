@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -25,7 +24,7 @@
                 android:id="@+id/toolbar"
                 android:layout_width="409dp"
                 android:layout_height="55dp"
-                android:background="@color/material_dynamic_neutral80"
+                android:background="#ff008577"
                 android:minHeight="?attr/actionBarSize"
                 android:theme="?attr/actionBarTheme"
                 app:title="Twitter Sentiment Analysis"
