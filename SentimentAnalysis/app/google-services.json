@@ -12,7 +12,20 @@
           "package_name": "org.root.sentiments"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "553275164506-7j56j0oqpmaclh5i2i3n08hnljmnohkl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.root.sentiments",
+            "certificate_hash": "db398e59dae8c762e7e0cfb06f471eb7a5462c37"
+          }
+        },
+        {
+          "client_id": "553275164506-0hc5rad9ko485rd5kuq47v50gnu07f9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyBM5iSHtez5f7l0pYW8K-NlL_XT3OwMUN0"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553275164506-0hc5rad9ko485rd5kuq47v50gnu07f9l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
