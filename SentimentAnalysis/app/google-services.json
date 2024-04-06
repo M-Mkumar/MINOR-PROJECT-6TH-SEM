@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "553275164506",
+    "project_id": "sentiments-89ab3",
+    "storage_bucket": "sentiments-89ab3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553275164506:android:3bbf144bc965d5650ed563",
+        "android_client_info": {
+          "package_name": "org.root.sentiments"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM5iSHtez5f7l0pYW8K-NlL_XT3OwMUN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
