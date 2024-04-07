@@ -23,6 +23,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.tasks.await
 import kotlinx.coroutines.withContext
 import org.root.sentiments.databinding.ActivityLoginBinding
+import kotlin.system.exitProcess
 
 
 private const val TAG = "LoginActivity"
@@ -69,7 +70,7 @@ class LoginActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityLoginBinding
     override fun onCreate(savedInstanceState: Bundle?) {
-        Log.i(TAG, "onCreate: ${applicationContext.packageName}")
+        Log.i(TAG, "onCreate: LoginActivity")
         super.onCreate(savedInstanceState)
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
@@ -89,18 +90,14 @@ class LoginActivity : AppCompatActivity() {
         }
 
         if (auth.currentUser != null) {
+            Log.i(TAG, "Already Signed In, Proceding")
             Intent(this, IPAddressActivity::class.java).apply {
                 startActivity(this)
+                finish()
             }
         }
 
     }
-
-override fun onStart() {
-    super.onStart()
-
-}
-
 
 
 
