@@ -7,7 +7,7 @@ import android.util.Log
 import org.root.sentiments.databinding.ActivityIpaddressBinding
 
 private const val TAG = "IPAddressActivity"
-class IPAddressActivity : AppCompatActivity() {
+class   IPAddressActivity : AppCompatActivity() {
     private lateinit var binding: ActivityIpaddressBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {

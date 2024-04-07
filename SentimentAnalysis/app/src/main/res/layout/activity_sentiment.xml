@@ -7,22 +7,45 @@
     android:background="#FFFEFE"
     tools:context=".SentimentActivity">
 
+    <ImageView
+        android:id="@+id/responseimg"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="40dp"
+        android:visibility="invisible"
+        />
+    <TextView
+        android:id="@+id/responsetxt"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/responseimg"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
     <EditText
         android:id="@+id/tweetText"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="text"
-        android:textStyle="bold"
         android:gravity="center"
-        android:textColor="@color/black"
         android:hint="Enter the tweet"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.5" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnProceed"
